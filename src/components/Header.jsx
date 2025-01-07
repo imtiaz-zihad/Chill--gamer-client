@@ -8,7 +8,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#7BD3EA] text-white py-4 px-6 lg:px-12">
+    <header className="bg-[#7BD3EA] text-white py-4 px-6 lg:px-12 sticky top-0 z-50">
       <div className="flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="text-3xl font-bold">

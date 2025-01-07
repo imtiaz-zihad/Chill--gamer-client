@@ -9,7 +9,7 @@ const HighestRatedGames = () => {
   
 
   return (
-    <section className="py-10 mt-10">
+    <section className="mb-10">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-black mb-8">
           Highest Rated Game
