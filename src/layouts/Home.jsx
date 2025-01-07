@@ -1,5 +1,7 @@
 import Banner from "../pages/Banner";
+import BlogSection from "../pages/BlogSection";
 import HighestRatedGames from "../pages/HighestRatedGames";
+import Promotional from "../pages/Promotional";
 import TrendingGames from "../pages/TrendingGames";
 import { useTypewriter,Cursor } from "react-simple-typewriter";
 
@@ -20,6 +22,8 @@ const Home = () => {
       <Banner />
       <HighestRatedGames />
       <TrendingGames />
+      <BlogSection />
+    <Promotional />
     </div>
   );
 };
